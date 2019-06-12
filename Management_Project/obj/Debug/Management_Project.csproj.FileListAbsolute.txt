@@ -1,0 +1,183 @@
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\Management_Project.exe.config
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\Management_Project.pdb
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\EntityFramework.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\EntityFramework.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.csprojAssemblyReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.csproj.ResolveComReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Bill.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\BillManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Category.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ChangeCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ChangeProducts.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CouponManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateCoupon.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateProduct.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Login.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\MainWindow.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Payment.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeChiTiet.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeDoanhThu.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeSanPham.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\App.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project_Content.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project_MarkupCompile.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project_MarkupCompile.lref
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\App.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Bill.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\BillManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Category.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ChangeCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ChangeProducts.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CouponManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateCoupon.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\CreateProduct.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Login.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\MainWindow.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\Payment.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeChiTiet.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeDoanhThu.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\View\ThongKeSanPham.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.g.resources
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.Properties.Resources.resources
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.csproj.GenerateResource.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.csproj.CoreCompileInputs.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.csproj.CopyComplete
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject\Management_Project\obj\Debug\Management_Project.pdb
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\Management_Project.exe.config
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\Management_Project.pdb
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\EntityFramework.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\EntityFramework.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.csprojAssemblyReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.csproj.ResolveComReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Bill.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\BillManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Category.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ChangeCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ChangeProducts.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CouponManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateCoupon.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateProduct.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Login.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\MainWindow.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Payment.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeChiTiet.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeDoanhThu.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeSanPham.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\App.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project_Content.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project_MarkupCompile.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project_MarkupCompile.lref
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\App.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Bill.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\BillManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Category.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ChangeCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ChangeProducts.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CouponManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateCoupon.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\CreateProduct.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Login.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\MainWindow.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\Payment.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeChiTiet.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeDoanhThu.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\View\ThongKeSanPham.baml
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.g.resources
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.Properties.Resources.resources
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.csproj.GenerateResource.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.csproj.CoreCompileInputs.cache
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.csproj.CopyComplete
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612103_finalProject - Copy\Management_Project\obj\Debug\Management_Project.pdb
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\Management_Project.exe.config
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\Management_Project.pdb
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\EntityFramework.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\MaterialDesignColors.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\EntityFramework.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.csprojAssemblyReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.csproj.ResolveComReference.cache
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Bill.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\BillManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Category.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ChangeCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ChangeProducts.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CouponManage.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateCategory.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateCoupon.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateProduct.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Login.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\MainWindow.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Payment.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeChiTiet.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeDoanhThu.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeSanPham.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\App.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project_Content.g.cs
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project_MarkupCompile.cache
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project_MarkupCompile.lref
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\App.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Bill.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\BillManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Category.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ChangeCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ChangeProducts.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CouponManage.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateCategory.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateCoupon.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\CreateProduct.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Login.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\MainWindow.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\Payment.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeChiTiet.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeDoanhThu.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\View\ThongKeSanPham.baml
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.g.resources
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.Properties.Resources.resources
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.csproj.GenerateResource.cache
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.csproj.CoreCompileInputs.cache
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.csproj.CopyComplete
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.exe
+C:\Users\quang\OneDrive\Máy tính\1612247_FInal\Management_Project\obj\Debug\Management_Project.pdb

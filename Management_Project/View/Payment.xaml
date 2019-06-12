@@ -1,0 +1,20 @@
+﻿<Window x:Class="Management_Project.Payment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Management_Project"
+        mc:Ignorable="d"
+        Title="Payment" Height="350" Width="450"
+        Top="70" Left="350"
+        >
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Button Content="Tạo Hóa Đơn" HorizontalAlignment="Left" Height="95" Margin="54,38,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1" />
+        <Button Content="Quản Lý Hóa Đơn" HorizontalAlignment="Left" Height="95" Margin="252,38,0,0" VerticalAlignment="Top" Width="145" Name="Manage" Click="Manage_click"/>
+        <Button Content="Tạo Coupon" HorizontalAlignment="Left" Height="95" Margin="54,178,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click" />
+        <Button Content="Quản lý Coupon" HorizontalAlignment="Left" Height="95" Margin="252,178,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_2" />
+    </Grid>
+</Window>

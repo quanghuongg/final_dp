@@ -1,0 +1,54 @@
+﻿<Window x:Class="Management_Project.Category"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Management_Project"
+        mc:Ignorable="d"
+        Title="Category" Height="420" Width="700"
+               Top="50" Left="250"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+
+        <Grid Margin="0,0,0,-29">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="3" Margin="0,0,-507,81">
+                <ListView ItemsSource="{Binding CategoryList}" Margin="30,0,63,0" Name="ListCategory" Height="284" VerticalAlignment="Top" SelectionChanged="ListCategory_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}"></GridViewColumn>
+                            <GridViewColumn Header = "Mã Loại" DisplayMemberBinding="{Binding CategoryID}" Width="150px"></GridViewColumn>
+                            <GridViewColumn Header = "Tên Loại" DisplayMemberBinding="{Binding Name}" Width="150px"></GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <Grid Margin="0,0,0,-52">
+                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="47,317,458,0"
+                        Width="80"
+                        Content="Thêm"
+                        ToolTip="Resource name: MaterialDesignRaisedButton" x:Name="ADD" VerticalAlignment="Top" Click="ADD_Click"/>
+                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="228,317,280,0"
+                        Width="80"
+                        Content="Xóa"
+                        ToolTip="Resource name: MaterialDesignRaisedButton" x:Name="Delete" VerticalAlignment="Top" Click="Delete_Click" IsEnabled="False"/>
+                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="402,317,109,0"
+                                            Width="80"
+                                            Content="Sửa"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton" Name="Change" VerticalAlignment="Top" RenderTransformOrigin="0.958,0.453" Click="Change_Click" IsEnabled="False"></Button>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

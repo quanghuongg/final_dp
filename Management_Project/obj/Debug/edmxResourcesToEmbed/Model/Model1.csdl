@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyBanHangModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="Bill_ID" />
+    </Key>
+    <Property Name="Bill_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Created_at" Type="DateTime" Precision="3" />
+    <Property Name="Total" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TrangThai" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CouponID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Coupon" Relationship="Self.FK_Bill_Coupon" FromRole="Bill" ToRole="Coupon" />
+    <NavigationProperty Name="BillInfoes" Relationship="Self.FK_BillInfo_Bill" FromRole="Bill" ToRole="BillInfo" />
+  </EntityType>
+  <EntityType Name="BillInfo">
+    <Key>
+      <PropertyRef Name="Bill_ID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="Bill_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProductID" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Qty" Type="Int32" />
+    <NavigationProperty Name="Bill" Relationship="Self.FK_BillInfo_Bill" FromRole="BillInfo" ToRole="Bill" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_BillInfo_Product" FromRole="BillInfo" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <Property Name="isDeleted" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Product_Category" FromRole="Category" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Coupon">
+    <Key>
+      <PropertyRef Name="CouponID" />
+    </Key>
+    <Property Name="CouponID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="PhanTram" Type="Int32" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK_Bill_Coupon" FromRole="Coupon" ToRole="Bill" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="isDeleted" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <NavigationProperty Name="BillInfoes" Relationship="Self.FK_BillInfo_Product" FromRole="Product" ToRole="BillInfo" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Product_Category" FromRole="Product" ToRole="Category" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Role" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_Bill_Coupon">
+    <End Role="Coupon" Type="Self.Coupon" Multiplicity="0..1" />
+    <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Coupon">
+        <PropertyRef Name="CouponID" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="CouponID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BillInfo_Bill">
+    <End Role="Bill" Type="Self.Bill" Multiplicity="1" />
+    <End Role="BillInfo" Type="Self.BillInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bill">
+        <PropertyRef Name="Bill_ID" />
+      </Principal>
+      <Dependent Role="BillInfo">
+        <PropertyRef Name="Bill_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BillInfo_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="BillInfo" Type="Self.BillInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="BillInfo">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuanLyBanHangEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bills" EntityType="Self.Bill" />
+    <EntitySet Name="BillInfoes" EntityType="Self.BillInfo" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Coupons" EntityType="Self.Coupon" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Bill_Coupon" Association="Self.FK_Bill_Coupon">
+      <End Role="Coupon" EntitySet="Coupons" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BillInfo_Bill" Association="Self.FK_BillInfo_Bill">
+      <End Role="Bill" EntitySet="Bills" />
+      <End Role="BillInfo" EntitySet="BillInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BillInfo_Product" Association="Self.FK_BillInfo_Product">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="BillInfo" EntitySet="BillInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Category" Association="Self.FK_Product_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

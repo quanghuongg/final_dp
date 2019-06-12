@@ -1,0 +1,26 @@
+﻿<Window x:Class="Management_Project.CouponManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Management_Project"
+        mc:Ignorable="d"
+        Title="Coupon Manage" Height="488.91" Width="565.977"
+                Top="50" Left="250">
+    <Grid>
+        <ListView ItemsSource="{Binding ListCoupon}" Margin="31,28,76,85" Name="ListCoupon">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}"></GridViewColumn>
+                    <GridViewColumn Header = "Coupon ID" DisplayMemberBinding="{Binding CouponID}" Width="100px"></GridViewColumn>
+                    <GridViewColumn Header = "Phần trăm giảm" DisplayMemberBinding="{Binding PhanTram}" Width="150px"></GridViewColumn>
+                    <GridViewColumn Header = "Số lượng" DisplayMemberBinding="{Binding SoLuong}" Width="100px"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="197,360,195,28"
+                Width="100"
+                Content="Exit"
+                ToolTip="Resource name: MaterialDesignRaisedButton"  x:Name="Exit" Click="Exit_Click"/>
+    </Grid>
+</Window>

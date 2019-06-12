@@ -1,0 +1,52 @@
+﻿<Window x:Class="Management_Project.ThongKeChiTiet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Management_Project"
+        mc:Ignorable="d"
+        Title="Thống Kê Chi tiết" Height="460" Width="820"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Height="449">
+        <Grid Grid.Column="0">
+            <DatePicker VerticalAlignment="Center" HorizontalAlignment="Left" Width="164" materialDesign:HintAssist.Hint="Ngày bắt đầu" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Margin="138,34,0,379" Name="StartDate" SelectedDateChanged="Start_SelectedDateChanged"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <DatePicker VerticalAlignment="Center" HorizontalAlignment="Left" Width="161" materialDesign:HintAssist.Hint="Ngày kết thúc" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" RenderTransformOrigin="3.807,0.531" Margin="399,33,0,379" Name="EndDate" SelectedDateChanged="End_SelectedDateChanged"/>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="624,45,68,372"
+                                            Width="100"
+                                            Content="Lọc"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton"  Name="Loc" IsEnabled="False" Click="Loc_Click"></Button>
+            <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="342,365,350,52"
+                Width="100"
+                Content="Export"
+                ToolTip="Resource name: MaterialDesignRaisedButton"  x:Name="Export" IsEnabled="False" Click="Export_Click"/>
+        </Grid>
+        <Grid Margin="0,0,10,0">
+            <ListView ItemsSource="{Binding ListProducts}" Margin="0,83,0,81" Name="ListProducts">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header = "STT" DisplayMemberBinding="{Binding STT}"></GridViewColumn>
+                        <GridViewColumn Header = "Product ID" DisplayMemberBinding="{Binding ProductID}" Width="100px"></GridViewColumn>
+                        <GridViewColumn Header = "Tên sản phẩm" DisplayMemberBinding="{Binding Name}" Width="120px"></GridViewColumn>
+                        <GridViewColumn Header = "Loại sản phẩm" DisplayMemberBinding="{Binding CategoryID}" Width="120px"></GridViewColumn>
+                        <GridViewColumn Header = "Giá" DisplayMemberBinding="{Binding Cost}" Width="100px"></GridViewColumn>
+                        <GridViewColumn Header = "Số Lượng" DisplayMemberBinding="{Binding Qty}" Width="100px"></GridViewColumn>
+                        <GridViewColumn Header = "Tổng" DisplayMemberBinding="{Binding Total}" Width="150px"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Label Content="Tổng" HorizontalAlignment="Left" Height="31"  VerticalAlignment="Top" Width="70" FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto" FontSize="14px" FontWeight="Bold" Margin="535,368,0,0" />
+            <TextBox HorizontalAlignment="Left" Height="26" Margin="605,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Name="Total" IsReadOnly="True"/>
+        </Grid>
+    </Grid>
+</Window>

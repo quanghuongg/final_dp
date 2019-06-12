@@ -1,0 +1,252 @@
+﻿<Window x:Class="Management_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Management_Project"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="500" Width="800"
+        Top="50" Left="200"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <!--menu-->
+            <Grid Grid.Row="0">
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Background="Transparent">
+                    <Grid.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Margin" Value="2 4 2 4"></Setter>
+                            <Setter Property="Background" Value="LightCyan"></Setter>
+                        </Style>
+                    </Grid.Resources>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" ToolTip="Quản lý loại sản phẩm" Click="Button_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3BB801" Offset="0.127"/>
+                                <GradientStop Color="#FF69E691" Offset="1"/>
+                                <GradientStop Color="#FF26C383" Offset="0.722"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="Quản lý loại sản phẩm" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon HorizontalAlignment="Center" Width="24" Height="24"  Kind="ArrowDownBoldCircleOutline" />
+                            </Grid>
+                        </Grid>
+                    </Button>
+                    <Button Grid.Column="1" ToolTip="Tạo hóa đơn" Click="Button_Click_2">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3BB801" Offset="0.127"/>
+                                <GradientStop Color="#FF69E691" Offset="1"/>
+                                <GradientStop Color="#FF26C383" Offset="0.722"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="Thanh toán" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon Width="24" Height="24"  HorizontalAlignment="Center"  Kind="ArrowUpBoldCircleOutline" />
+                            </Grid>
+                        </Grid>
+                    </Button>
+                    <Button Grid.Column="2" ToolTip="Thống kê doanh thu" Click="Button_Click_3">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3BB801" Offset="0.127"/>
+                                <GradientStop Color="#FF69E691" Offset="1"/>
+                                <GradientStop Color="#FF26C383" Offset="0.722"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="Thống kê doanh thu" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon Width="24" Height="24"  HorizontalAlignment="Center"  Kind="Dns" />
+                            </Grid>
+                        </Grid>
+                    </Button>
+                    <Button Grid.Column="3" ToolTip="Thống kê sản phẩm" Click="Button_Click_4">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3BB801" Offset="0.127"/>
+                                <GradientStop Color="#FF69E691" Offset="1"/>
+                                <GradientStop Color="#FF26C383" Offset="0.722"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="Thống kê sản phẩm" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon Width="24" Height="24"  HorizontalAlignment="Center"  Kind="Altimeter" />
+                            </Grid>
+                        </Grid>
+                    </Button>
+                    <Button Grid.Column="4" ToolTip="Thống kê chi tiết" Click="Button_Click_5">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3BB801" Offset="0.127"/>
+                                <GradientStop Color="#FF69E691" Offset="1"/>
+                                <GradientStop Color="#FF26C383" Offset="0.722"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <TextBlock Text="Thống kê chi tết" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <materialDesign:PackIcon Width="24" Height="24"  HorizontalAlignment="Center"  Kind="Factory" />
+                            </Grid>
+                        </Grid>
+                    </Button>
+                </Grid>
+            </Grid>
+
+            <!--main-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--Filter-->
+                <Grid Grid.Row="0">
+                    <materialDesign:Card Margin="5,5,5,-413" VerticalAlignment="Stretch">
+                        <Grid Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" Margin="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Content="Loại sản phẩm" HorizontalAlignment="Left" Height="26" Margin="15,16,0,0" VerticalAlignment="Top" Width="110" Grid.ColumnSpan="2" FontSize="13px" FontWeight="Bold"/>
+                                <ComboBox HorizontalAlignment="Left" Height="26" Margin="133,13,-132,13"  Width="120" Name="CategoryName" SelectionChanged="CategoryName_SelectionChanged">
+                                </ComboBox>
+                                <Grid Grid.Column="1"/>
+                                <Grid Grid.Column="2">
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="130,10,-116,10"
+                                            Width="100"
+                                            Content="Lọc"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton" IsEnabled="False" Name="Loc" Click="Loc_Click"></Button>
+                                </Grid>
+                                <Grid Grid.Column="3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="332,12,-240,8"
+                                            Width="80"
+                                            Content="Thêm"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton" Click="Button_Click_1"/>
+                                </Grid>
+                                <Grid Grid.Column="4">
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="448,12,-362,8"
+                                            Width="80"
+                                            Content="Xóa"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton" Name="Delete" Click="Delete_Click" IsEnabled="False"></Button>
+                                </Grid>
+                                <Grid Grid.Column="5">
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="559,12,-468,8"
+                                            Width="80"
+                                            Content="Sửa"
+                                            ToolTip="Resource name: MaterialDesignRaisedButton" Name="Change" Click="Change_Click" IsEnabled="False" Height="Auto"/>
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="532,358,-453,-338"
+                                        Width="90"
+                                        Content="Next"
+                                        ToolTip="Resource name: MaterialDesignRaisedButton" x:Name="Next" VerticalAlignment="Top" Click="Next_Click"/>
+                                    <Button Style="{StaticResource MaterialDesignRaisedButton}" Margin="412,358,-332,-338"
+                                        Width="90"
+                                        Content="Previous"
+                                        ToolTip="Resource name: MaterialDesignRaisedButton" x:Name="Previous" VerticalAlignment="Top" IsEnabled="False" Click="Previous_Click_1"/>
+                                </Grid>
+                            </Grid>
+                            <Grid Margin="0,47,0,5" Grid.RowSpan="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="455*"/>
+                                    <ColumnDefinition Width="327*"/>
+                                </Grid.ColumnDefinitions>
+                                <Separator Margin="5" Grid.ColumnSpan="2"></Separator>
+                            </Grid>
+                            <Grid Grid.Row="2" Margin="0,0,0,-48">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.ColumnSpan="3" Margin="0,0,-507,0">
+                                    <ListView ItemsSource="{Binding ListSanPham}" Margin="93,-10,-93,103" Name="ListProducts" SelectionChanged="ListProducts_SelectionChanged">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}"></GridViewColumn>
+                                                <GridViewColumn Header = "Product ID" DisplayMemberBinding="{Binding ProductID}" Width="100px"></GridViewColumn>
+                                                <GridViewColumn Header = "Tên sản phẩm" DisplayMemberBinding="{Binding Name}" Width="150px"></GridViewColumn>
+                                                <GridViewColumn Header = "Loại sản phẩm" DisplayMemberBinding="{Binding CategoryName}" Width="150px"></GridViewColumn>
+                                                <GridViewColumn Header = "Giá" DisplayMemberBinding="{Binding Cost}" Width="100px"></GridViewColumn>
+                                                <GridViewColumn Header = "Số lượng" DisplayMemberBinding="{Binding Quantity}" Width="100px"></GridViewColumn>
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </materialDesign:Card>
+                </Grid>
+
+                <!--list-->
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
